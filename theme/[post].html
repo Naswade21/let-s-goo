@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html data-wf-page="633db465a0a6e47d861d96ee" data-wf-site="633db464a0a6e445ec1d969d"><head><link rel="preconnect" crossorigin="true" href="https://assets.website-files.com">
+  {%- assign categoryOfPost = f_category | resolveReference -%}<meta charset="utf-8">
+  <title>{{ title }}</title>
+  <meta content="{{ published-on | escape }} - {{ categoryOfPost.data.title | escape }} - {{ f_post-summary | escape }}" name="description">
+  <meta content="{{ title }}" property="og:title">
+  <meta content="{{ published-on | escape }} - {{ categoryOfPost.data.title | escape }} - {{ f_post-summary | escape }}" property="og:description">
+  <meta content="{{ f_thumbnail-image.url | escape }}" property="og:image">
+  <meta content="{{ title }}" property="twitter:title">
+  <meta content="{{ published-on | escape }} - {{ categoryOfPost.data.title | escape }} - {{ f_post-summary | escape }}" property="twitter:description">
+  <meta content="{{ f_thumbnail-image.url | escape }}" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="/assets/css/let-s-goo.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Manrope:regular,500,600,700,800","Playfair Display:regular,500,600,700,italic,500italic,600italic,700italic"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="{{ settings.site.favicon | default: "/assets/images/favicon.png" }}" rel="shortcut icon" type="image/x-icon">
+  <link href="{{ settings.site.apple_touch_icon | default: "/assets/images/webclip.png" }}" rel="apple-touch-icon">
+{{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
+            aspect-ratio: 16 / 9;
+        }</style><style>picture { border: 0;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block; }</style></head>
+<body>
+  <div data-animation="default" class="navbar w-nav" data-easing2="ease-in-out-quint" data-easing="ease-in-out-quint" data-collapse="all" data-w-id="30c87c6b-e5ea-20bb-4e1a-93a6ca90ac9f" role="banner" data-duration="800">
+    <div class="w-layout-grid navbar-grid">
+      <div class="nav-left">
+        <div class="menu-button w-nav-button">{%- image images.38e1076f.url, images.38e1076f.alt, '[]', 'loading="eager" class="menu-icon"' -%}{%- image images.241ffa94.url, images.241ffa94.alt, '[]', 'loading="eager" class="close-icon"' -%}
+          <div class="menu-button-text">{{ texts.24897f }}</div>
+        </div>
+      </div>
+      <a href="{{ links.-26ac506c }}" id="w-node-_30c87c6b-e5ea-20bb-4e1a-93a6ca90aca7-ca90ac9f" class="brand w-nav-brand">{%- image images.-6faf461f.url, images.-6faf461f.alt, '[]', 'loading="lazy" width="472" class="logo"' -%}</a>
+      <div class="nav-right">
+        <form action="/search" id="w-node-_30c87c6b-e5ea-20bb-4e1a-93a6ca90acaa-ca90ac9f" class="search w-form"><input type="search" class="search-nav-input w-input" maxlength="256" name="query" placeholder="Search" id="search" required=""><input type="submit" value="" class="search-icon-button w-button"></form>
+      </div>
+    </div>
+    <nav role="navigation" class="nav-menu w-nav-menu">
+      <div class="w-layout-grid menu-grid">
+        <div class="menu-block first">
+          <div id="w-node-_30c87c6b-e5ea-20bb-4e1a-93a6ca90acb0-ca90ac9f" class="menu-text">{{ texts.25d6af }}</div>
+          <a href="{{ links.-26ac506c }}" class="nav-link">{{ texts.2268ff }}</a>
+          <a href="{{ links.16bdc13e }}" class="nav-link">{{ texts.-64104400 }}</a>
+          <a href="{{ links.61642f31 }}" class="nav-link">{{ texts.3c2336d }}</a>
+        </div>
+        <div class="menu-block">
+          <div id="w-node-_30c87c6b-e5ea-20bb-4e1a-93a6ca90acb9-ca90ac9f" class="menu-text">{{ texts.2158e894 }}</div>
+          <a href="{{ links.-b1ecf2 }}" class="nav-link">{{ texts.-38ad4b62 }}</a>
+          <a href="{{ links.-14f09b14 }}" class="nav-link">{{ texts.-7aba473 }}</a>
+          <a href="{{ links.-2beb6f08 }}" class="nav-link">{{ texts.-31d02e8c }}</a>
+        </div>
+        <div class="menu-block">
+          <div id="w-node-_30c87c6b-e5ea-20bb-4e1a-93a6ca90acc2-ca90ac9f" class="menu-text">{{ texts.-6c12fc73 }}</div>
+          <a href="{{ links.386dd7dd }}" target="_blank" class="nav-link">{{ texts.217bfee6 }}</a>
+          <a href="{{ links.310b69ca }}" target="_blank" class="nav-link">{{ texts.2c9a4253 }}</a>
+          <a href="{{ links.71b05117 }}" target="_blank" class="nav-link">{{ texts.280d3723 }}</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="section page">
+    <div class="content-wide">{%- image f_main-image.url, f_main-image.alt, '[]', 'loading="lazy" class="main-image"' -%}</div>
+    <div class="content">
+      <div class="post-heading-block">
+        <div class="post-info">
+          {%- assign categoryOfPost = f_category | resolveReference -%}<a href="{{ categoryOfPost.url }}" class="link-category">{{ categoryOfPost.data.title }}</a>
+          <div class="date">{{ created-on | formatDate: "MMM d, yyyy" }}</div>
+        </div>
+        <h1 class="heading">{{ title }}</h1>
+      </div>
+      <div class="rich-text-block w-richtext">{{ content | markdown }}</div>
+      <div class="rich-text-block wide w-richtext">{{ f_wide-post-body | markdown }}</div>
+      <div class="rich-text-block w-richtext">{{ f_post-body-bottom | markdown }}</div>
+      {% assign refs = f_tags %}{%- if refs -%}<div class="tags-block">
+        {%- assign tagsOfPost = f_tags | resolveMultiReferences -%}<div class="collection-list-wrapper w-dyn-list">
+          {%- unless tagsOfPost.length == 0 -%}<div role="list" class="collection-list w-dyn-items">
+            {%- for item in tagsOfPost -%}<div role="listitem" class="collection-item---tag w-dyn-item">
+              <a href="{{ item.url }}" class="tag">{{ item.data.title }}</a>
+            </div>{%- endfor -%}
+          </div>{%- endunless -%}
+          {%- if tagsOfPost.length == 0 -%}<div class="empty-state w-dyn-empty">
+            <div class="empty-text">{{ texts.3d503d2b }}</div>
+          </div>{%- endif -%}
+        </div>
+      </div>{%- endif -%}
+      <div class="space"></div>
+      {%- assign collection = collections.post | filter: "slug,ne,DYN_CONTEXT", "ALL", page.inputPath | sort: "_random" | limit: 3 -%}<div class="collection-list-wrapper w-dyn-list">
+        {%- unless collection.length == 0 -%}<div role="list" class="collection-list---3a w-dyn-items">
+          {%- for item in collection -%}<div role="listitem" class="collection-item w-dyn-item">
+            <a data-w-id="18752edf-25ae-6de1-b7c9-89136fb64f2b" href="{{ item.url }}" class="link-post _230px-margin w-inline-block" style="background-image: url('{{item.data.f_thumbnail-image.url}}');"></a>
+            <div class="post-text">
+              <div class="post-info">
+                {%- assign categoryOfPost = item.data.f_category | resolveReference -%}<a href="{{ categoryOfPost.url }}" class="link-category">{{ categoryOfPost.data.title }}</a>
+                <div class="date">{{ item.data.created-on | formatDate: "MMM d, yyyy" }}</div>
+              </div>
+              <a href="{{ item.url }}" class="link-post-heading w-inline-block">
+                <h5 class="post-heading">{{ item.data.title }}</h5>
+              </a>
+            </div>
+          </div>{%- endfor -%}
+        </div>{%- endunless -%}
+        {%- if collection.length == 0 -%}<div class="empty-state w-dyn-empty">
+          <div class="empty-text">{{ texts.3d503d2b }}<br></div>
+        </div>{%- endif -%}
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <footer class="grid-footer">
+      <div id="w-node-af7177d4-a876-72d8-f1e2-a885b81feeb7-b81feeb5" class="block-footer">{%- image images.-6faf461f.url, images.-6faf461f.alt, '[]', 'loading="lazy" class="logo-footer"' -%}
+        <a href="{{ links.132c1309 }}" target="_blank" class="small-link-footer">{{ texts.42d540f5 }}</a>
+      </div>
+      <div class="block-footer-link">
+        <a href="{{ links.386dd7dd }}" target="_blank" class="link-footer">{{ texts.217bfee6 }}</a>
+        <a href="{{ links.310b69ca }}" target="_blank" class="link-footer">{{ texts.2c9a4253 }}</a>
+        <a href="{{ links.71b05117 }}" target="_blank" class="link-footer">{{ texts.280d3723 }}</a>
+      </div>
+      <div class="block-footer-link">
+        <a href="{{ links.-2f934417 }}" class="link-footer">{{ texts.-3fbde6f6 }}</a>
+        <a href="{{ links.-14f09b14 }}" class="link-footer">{{ texts.-7aba473 }}</a>
+        <a href="{{ links.-2beb6f08 }}" class="link-footer">{{ texts.-31d02e8c }}</a>
+      </div>
+    </footer>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js" type="text/javascript" crossorigin="anonymous"></script>
+  <script src="/assets/js/webflow.js" type="text/javascript"></script>
+
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
