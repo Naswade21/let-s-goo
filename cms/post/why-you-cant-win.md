@@ -15,3 +15,4 @@ seo:
   twitter:title: summary
   twitter:card: summary
 ---
+Y﻿ou can't win because you haven't tried hard enough my friend. Keep putting some work in.
